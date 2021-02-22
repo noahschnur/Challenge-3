@@ -21,6 +21,7 @@ function writePassword() {
     
     function generatePassword() {
       var password = "";
+      
       var allowed = {};
         if (lower) password += rando(allowed.lower = "qwertyuiopasdfghjklzxcvbnm");
         if (upper) password += rando(allowed.upper = "QWERTYUIOPASDFGHJKLZXCVBNM");
@@ -31,7 +32,7 @@ function writePassword() {
       document.getElementById("password").value = randoSequence(password).join("");
     }
     
-    // var password = generatePassword();
+    var password = generatePassword();
   var passwordText = document.querySelector("#password");
 
   passwordText.value = password;    
