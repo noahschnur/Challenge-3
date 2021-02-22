@@ -8,4 +8,4 @@ https://noahschnur.github.io/Challenge-3/
 GitHub repo:
 https://github.com/noahschnur/Challenge-3
 
-![Alt text](./Random.jpg-?raw=true "Random Password Generator Screenshot")
+![Alt text](https://github.com/noahschnur/Challenge-3/blob/main/Random.png "Screenshot")
